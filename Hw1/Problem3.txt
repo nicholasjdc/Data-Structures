@@ -1,0 +1,8 @@
+The results I observed in terms of growth rates were consistent with my expectations, but the
+numbers themselves were not. For example, constant held steady, but held steady at around
+200000, which seemed very large for a program of O(1) and consisted solely of a print function.
+My exponential function grew at an exponential rate, however did not grow at a rate of 2^N. I expected
+it to grow at a slower rate, but likely due to some slow-downs within the code, it was larger, for example
+at N^20 it returned 1688373. The cubic function, while seeming to grow at a rate consistent with the
+growth curve of cubic functions, the numbers returned were much too large. This issue became less severe
+as the N value became larger, the differences first being by magnitudes of ten and then simply double the size.
